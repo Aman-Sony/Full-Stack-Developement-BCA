@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Marketplace Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 5px;
+        }
+        .services, .testimonials, .freelancers {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service, .testimonial, .freelancer {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to <strong>SkillSync</strong></h1>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#freelancers">Freelancers</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+        <a href="Sub_plan.html">Subscription</a> <!-- Link to subscription page -->
+    </nav>
+</header>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <h3><em>Web Development</em></h3>
+            <p>Build responsive and modern websites.</p>
+            <img src="https://miro.medium.com/v2/resize:fit:1200/0*M4bxiCIjcTK-2Xr6.jpeg" alt="Web Development Image">
+        </div>
+        <div class="service">
+            <h3><em>Graphic Design</em></h3>
+            <p>Create stunning visuals for your brand.</p>
+            <img src="https://webtry.in/assets/images/graphic.jpg" alt="Graphic Design Image">
+        </div>
+        <div class="service">
+            <h3><em>Content Writing</em></h3>
+            <p>Engaging content for your audience.</p>
+            <img src="https://ebizfiling.com/wp-content/uploads/2022/05/content-writing-2.png" alt="Content Writing Image">
+        </div>
+    </div>
+</section>
+
+<section id="freelancers">
+    <h2>Featured Freelancers</h2>
+    <div class="freelancers">
+        <div class="freelancer">
+            <h3><strong>John Doe</strong></h3>
+            <p>Expert in Web Development</p>
+        </div>
+        <div class="freelancer">
+            <h3><strong>Jane Smith</strong></h3>
+            <p>Professional Graphic Designer</p>
+        </div>
+        <div class="freelancer">
+            <h3><strong>Emily Johnson</strong></h3>
+            <p>Content Writer with <mark>5+</mark> years of experience</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"Great service! Highly recommend!"</p>
+            <p>- Client A</p>
+        </div>
+        <div class="testimonial">
+            <p>"The freelancers are top-notch!"</p>
+            <p>- Client B</p>
+        </div>
+        <div class=" testimonial">
+            <p>"I found exactly what I needed!"</p>
+            <p>- Client C</p>
+        </div>
+    </div>
+</section>
+
+<section id="call-to-action">
+    <h2>Join Us Today!</h2>
+    <p>Sign up now to find the perfect freelancer for your project or to start offering your services!</p>
+    <button onclick="location.href='signup.html'">Sign Up</button>
+
+</body>
+</html>
