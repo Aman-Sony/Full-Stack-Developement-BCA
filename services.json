@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "category": "Web Development",
+    "title": "Frontend Developer",
+    "description": "Develop responsive and user-friendly web interfaces.",
+    "price": 50,
+    "rating": 4.5,
+    "skills": ["HTML", "CSS", "JavaScript", "React"]
+  },
+  {
+    "id": 2,
+    "category": "Graphic Design",
+    "title": "Logo Designer",
+    "description": "Create unique and memorable logo designs.",
+    "price": 80,
+    "rating": 4.8,
+    "skills": ["Adobe Illustrator", "Photoshop", "Typography"]
+  },
+  {
+    "id": 3,
+    "category": "Writing",
+    "title": "Content Writer",
+    "description": "Write engaging and SEO-friendly content.",
+    "price": 30,
+    "rating": 4.2,
+    "skills": ["SEO", "Content Marketing", "Copywriting"]
+  },
+  {
+    "id": 4,
+    "category": "Mobile Development",
+    "title": "Android Developer",
+    "description": "Build native Android applications.",
+    "price": 70,
+    "rating": 4.6,
+    "skills": ["Java", "Kotlin", "Android SDK"]
+  },
+    {
+    "id": 5,
+    "category": "Data Analysis",
+    "title": "Data Analyst",
+    "description": "Analyze datasets and generate insightful reports.",
+    "price": 60,
+    "rating": 4.7,
+    "skills": ["Python", "SQL", "Tableau"]
+  },
+    {
+    "id": 6,
+    "category": "Video Editing",
+    "title": "Video Editor",
+    "description": "Edit and produce high-quality videos.",
+    "price": 45,
+    "rating": 4.3,
+    "skills": ["Adobe Premiere Pro", "Final Cut Pro", "Color Grading"]
+  }
+]
